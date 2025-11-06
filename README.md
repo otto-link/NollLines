@@ -32,6 +32,3 @@ npx gh-pages -d dist
 
 * Michaël Noll, *Computer Composition With Lines*, 1964
   [https://history.siggraph.org/artwork/a-michael-noll-computer-composition-with-lines/](https://history.siggraph.org/artwork/a-michael-noll-computer-composition-with-lines/)
-
-Do you want me to do that?
-```
