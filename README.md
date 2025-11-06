@@ -1,12 +1,8 @@
 # Computer Composition With Lines - Interactive UI
 
-This repository contains a small interactive web tool inspired by **Michaël Noll's 1964 artwork "Computer Composition With Lines"**.  
+This repository contains a small interactive web tool inspired by **Michaël Noll's 1964 artwork "Computer Composition With Lines"**. The app is hosted on GitHub Pages: [https://otto-link.github.io/NollLines/](https://otto-link.github.io/NollLines/). 
 
 <img width="1268" height="783" alt="image" src="https://github.com/user-attachments/assets/dbbf7cd6-0dfb-4aeb-b6ef-3bb1e3d783f5" />
-
-## Demo
-
-The app is hosted on GitHub Pages: [https://otto-link.github.io/NollLines/](https://otto-link.github.io/NollLines/)
 
 ## Usage
 
