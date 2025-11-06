@@ -1,0 +1,129 @@
+/* ----- Root page ----- */
+body, html, #root, .app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Courier New", monospace;
+  background-color: #D9D9D9; /* Dark background */
+  color: #282828; /* Foreground text */
+}
+
+/* ----- App container ----- */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+/* ----- Title ----- */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #282828; /* Foreground */
+}
+
+/* ----- Main content: UI + sketch ----- */
+.main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 24px;
+}
+
+/* ----- UI Panel ----- */
+.ui-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 250px;
+  padding: 16px;
+  background-color: #C9C9C9; /* Dark panel */
+  border: 1px solid #C9C9C9; /* Warm border */
+  border-radius: 8px;
+  color: #282828; /* Light text */
+}
+
+/* Labels */
+.ui-panel label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #282828;
+}
+
+/* Inputs */
+.ui-panel input[type="range"],
+.ui-panel input[type="number"] {
+  width: 100%;
+  margin-top: 4px;
+  accent-color: #282828; /* Slider knob/track highlight */
+  background-color: #E5E5E5; /* Panel-like track background */
+  color: #282828;
+}
+
+/* Buttons */
+.ui-panel button {
+  padding: 6px 12px;
+  background-color: #E5E5E5; /* Bright button */
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  color: #282828; /* Text on button */
+  cursor: pointer;
+}
+
+.ui-panel button:hover {
+  background-color: #282828;
+  color: #D9D9D9;
+}
+
+/* ----- Sketch container ----- */
+.sketch-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9D9D9;
+  border: 1px solid #282828;
+  border-radius: 8px;
+}
+
+.toggle-button {
+  padding: 6px 12px;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #282828;
+  color: #D9D9D9;
+}
+
+.toggle-button.active {
+  background-color: #D9D9D9;
+  color: #282828;
+}
+
+/* Panel */
+.ui-panel {
+  font-family: inherit; /* inherits from body */
+}
+
+/* Labels */
+.ui-panel label {
+  font-family: inherit;
+  font-weight: bold;
+}
+
+/* Buttons */
+.ui-panel button {
+  font-family: inherit;
+  font-weight: bold;
+}
+
+/* Title */
+.title {
+  font-family: inherit;
+  font-weight: bold;
+}
