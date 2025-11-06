@@ -1,11 +1,19 @@
+@font-face {
+  font-family: 'OpenGorton';
+  src: url('/fonts/OpenGorton-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ----- Root page ----- */
 body, html, #root, .app {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Courier New", monospace;
+  font-family: "OpenGorton", monospace;
   background-color: #D9D9D9; /* Dark background */
   color: #282828; /* Foreground text */
+  font-size: 0.9rem;
 }
 
 /* ----- App container ----- */
