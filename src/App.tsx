@@ -54,7 +54,7 @@ export default function App() {
                 s.randomSeed(Math.floor(seed));
 
                 // generate grid points
-                const points: { x: number; y: number }[] = [];
+                const points: { x: number; y: number }[][] = [];
 
                 for (let i = 0; i < gridX; i++) {
                     points[i] = []; // create row
@@ -72,7 +72,7 @@ export default function App() {
                 const cy = s.height / 2;
                 const radius = Math.min(s.width, s.height) / 2 * 0.9;
 
-                function is_in_circle(p) {
+                function is_in_circle(p: { x: number; y: number }) {
                     const dx = p.x - cx;
                     const dy = p.y - cy;
                     return (!maskCircle) || (dx * dx + dy * dy <= radius * radius);
